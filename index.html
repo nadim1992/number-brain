@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Number Brain</title>
+</head>
+
+<body>
+    <div class="main">
+        <table id="question-table">
+            <tbody>
+                <tr>
+                    <td id="1_1" class="dropzone" data-num=""></td>
+                    <td id="2_1" class="dropzone" data-num=""></td>
+                    <td id="3_1" class="dropzone" data-num=""></td>
+                    <td id="4_1" class="dropzone" data-num=""></td>
+                    <td class="sum" id="hor_1_sum"></td>
+                </tr>
+                <tr>
+                    <td id="1_2" class="dropzone" data-num=""></td>
+                    <td id="2_2" class="dropzone" data-num=""></td>
+                    <td id="3_2" class="dropzone" data-num=""></td>
+                    <td id="4_2" class="dropzone" data-num=""></td>
+                    <td class="sum" id="hor_2_sum"></td>
+                </tr>
+                <tr>
+                    <td id="1_3" class="dropzone" data-num=""></td>
+                    <td id="2_3" class="dropzone" data-num=""></td>
+                    <td id="3_3" class="dropzone" data-num=""></td>
+                    <td id="4_3" class="dropzone" data-num=""></td>
+                    <td class="sum" id="hor_3_sum"></td>
+                </tr>
+                <tr>
+                    <td class="sum" id="ver_1_sum"></td>
+                    <td class="sum" id="ver_2_sum"></td>
+                    <td class="sum" id="ver_3_sum"></td>
+                    <td class="sum" id="ver_4_sum"></td>
+                    <td class="jack">
+                        <span role="button" id="reload">&#x21BA;</span>
+                        <span role="button" id="okey">&#x2713;</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table id="answer-table">
+            <tbody>
+                <tr>
+                    <td class="dropzone">
+                        <div id="draggable1" draggable="true"></div>
+                    </td>
+                    <td class="dropzone">
+                        <div id="draggable2" draggable="true"></div>
+                    </td>
+                    <td class="dropzone">
+                        <div id="draggable3" draggable="true"></div>
+                    </td>
+                    <td class="dropzone">
+                        <div id="draggable4" draggable="true"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="dropzone">
+                        <div id="draggable5" draggable="true"></div>
+                    </td>
+                    <td class="dropzone">
+                        <div id="draggable6" draggable="true"></div>
+                    </td>
+                    <td class="dropzone">
+                        <div id="draggable7" draggable="true"></div>
+                    </td>
+                    <td class="dropzone">
+                        <div id="draggable8" draggable="true"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="dropzone">
+                        <div id="draggable9" draggable="true"></div>
+                    </td>
+                    <td class="dropzone">
+                        <div id="draggable10" draggable="true"></div>
+                    </td>
+                    <td class="dropzone">
+                        <div id="draggable11" draggable="true"></div>
+                    </td>
+                    <td class="dropzone">
+                        <div id="draggable12" draggable="true"></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
